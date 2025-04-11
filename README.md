@@ -120,16 +120,32 @@ to complete some manual setup steps.
 
 ## Interact with the app
 
-1.  Create a new task.\
-    Click the "New task" button on the left to initiate the creation of a new task.
-    Gemini suggests a task title. Edit the title as desired.
+**How to Create and Manage Tasks:**
 
-2.  Generate subtasks.\
-    Gemini can generate a list of subtasks based either on your title and/or an uploaded image.
+1.  **Start a New Task:**
+    *   Select if you want to create a task related to a *location* or a *room* by clicking in the corresponding check box image.
+    *   In the "Add a prompt" field, type a brief description of the task you want to plan. For example, "Plan a trip to Paris" or "Organize the living room".
+    *   Click the "Go" button next to the prompt field. This will send your prompt to Gemini for processing.
 
-3.  Save the task to add it to the dashboard of to-do tasks.
+2.  **Review the Generated Task:**
+    *   Gemini will generate a main task title and a list of associated subtasks based on your prompt.
+    *   The generated task and subtasks will appear in the section below the "Go" button.
+    *   If you want to make changes or start over, click the "Reset" button.
+    * You can edit the text in the input prompt and click "Go" again to generate a different list.
+
+3.  **Save the Task:**
+    *   If you're happy with the generated task, click the "Save" button.
+    *   This will add the task to your main dashboard of to-do tasks.
+
+4. **Manage tasks**
+    * You can delete tasks.
+    * You can mark tasks as completed.
 
 ## Migrate to use Vertex AI in Firebase
+
+
+
+
 
 **In its DEFAULT state, this sample app is for _EXPERIMENTATION and PROTOTYPING ONLY_.**
 It uses the [Google AI SDK for JavaScript](https://ai.google.dev/gemini-api/docs/quickstart?lang=web)
